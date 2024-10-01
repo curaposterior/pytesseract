@@ -1,0 +1,20 @@
+{
+    "name": "Tesseract Development Container",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "settings": { 
+            "git.path": "/usr/bin/git",
+            "terminal.integrated.shell.linux": "/bin/bash"
+          }
+        }
+      }
+    },
+    "context": "../",
+    "appPort": [],
+    "remoteUser": "root",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "echo 'Dev container is ready!'"
+  }
+  
